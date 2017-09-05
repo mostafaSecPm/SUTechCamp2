@@ -1,13 +1,14 @@
 package evoteam.ir.sutechcamp2;
 
 /**
- * Created by user on 9/4/2017.
+ * Created by user on 9/5/2017.
  */
 
 public class Task {
     private String name;
     private String day;
 
+    //constructor
     public Task(String name, String day){
         this.name = name;
         this.day = day;
@@ -18,10 +19,7 @@ public class Task {
     }
 
     public void setName(String name) {
-        if(name.length() > 3)
-            this.name = name;
-        else
-            this.name = "no name";
+        this.name = name;
     }
 
     public String getDay() {
