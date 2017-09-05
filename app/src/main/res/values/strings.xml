@@ -1,5 +1,3 @@
 <resources>
-    <string name="app_name">SUTechCamp2</string>
-    <string name="signInButton">Sign In</string>
-    <string name="signUpButton">Sign Up</string>
+    <string name="app_name">Example</string>
 </resources>
