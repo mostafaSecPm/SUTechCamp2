@@ -26,5 +26,14 @@
         android:layout_marginTop="124dp"
         android:text="@string/signUpButton"/>
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/SignUpButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp"
+        android:text="TextView"/>
+
 
 </RelativeLayout>
